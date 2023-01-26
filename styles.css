@@ -19,12 +19,11 @@ header { text-align: center;
 
 header:hover{color: rgb(63, 92, 40);}
 
-.principal{background-color: rgb(36, 105, 167);
+.principal{background-color: rgb(42, 87, 0);
     padding: 5px;
     margin-top: 10%;
     text-decoration: none; 
-    width: 100%;
-    height: 100%;
+    width: 100%; height: 100%;
     width: 600px;
     font-weight: 300;
     font-size: 60px;
@@ -35,11 +34,8 @@ header:hover{color: rgb(63, 92, 40);}
 
 .principalmidia{border-radius: 20px; cursor: pointer; }
 
-.socialmidia{background-color: transparent;
-    border-radius: 5px;
-    width: 600px;
-    position: relative;
-    font-size: 80px; margin-top: 5px;}
+.socialmidia{background-color: transparent;border-radius: 5px;
+    width: 600px; position: relative; font-size: 80px; margin-top: 5px;}
 
 
 a{text-decoration: none ;color: white;}
@@ -48,24 +44,23 @@ a:hover{ color: rgba(red, green, blue, alpha);}
 
 .facebook{color:white}
 
-.facebook:hover{background-color: rgb(2, 37, 131);color: white; }
+.facebook:hover{background-color: rgb(133, 139, 139);color: rgb(6, 79, 139); }
 
 .steam{color: aliceblue}
 
-.steam:hover{background-color: rgb(4, 59, 104);color: rgb(19, 89, 129);}
+.steam:hover{background-color: rgb(27, 27, 27);color: rgb(19, 89, 129);}
 
 .pinterest:hover{color: rgb(212, 0, 0);}
 
-.twitter{color: aquamarine}
+.twitter{color: rgb(136, 136, 136)}
 
-.twitter:hover{background-color: rgb(29, 80, 139); color: rgb(16, 79, 134);}
+.twitter:hover{background-color: rgb(70, 70, 70); color: #1d9bf0}
 
-.freefire:hover{background-color: yellow; color: aliceblue;}
+.freefire:hover{background-color: rgb(58, 58, 58); color: aliceblue;}
 
 .clash_of_clans{color: white;}
 
-.clash_of_clans:hover{color: aliceblue;
-                     background-color: black;}
+.clash_of_clans:hover{color: aliceblue; background-color: black;}
 
 footer{
     color: aliceblue;
@@ -76,15 +71,10 @@ footer{
     border-radius: 10px;
     background-color: rgb(109, 109, 109);
     text-align: center;
-    font-size: 50px}
+    font-size: 45px}
 
 
 
-footer:hover{color: rgb(196, 196, 196);
-     background-color: rgb(1, 148, 62);
-     font-size: 100px;
-     height: 80px;
-     transform: 0.5ms;
-     font-size: 80px;}
-
-    
+footer:hover{color: rgb(196, 196, 196); background-color: rgb(1, 148, 62);
+     font-size: 48px; height: 80px;font-weight: 500;
+     transform: 0.8s} 
