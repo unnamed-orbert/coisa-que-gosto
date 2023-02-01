@@ -15,73 +15,97 @@ header {
     font-size: 35px;
     border-bottom:3px;
     position:absolute;
+    cursor: default;
     width: 100%;
     height:40px;
     top:1px;}
 
-header:hover{color: rgb(173, 173, 173);}
+header:hover{
+    color: rgb(173, 173, 173);}
 
-.principal{background-color: rgb(83, 94, 72);
+.principal{
+    background-color: rgb(66, 146, 0);
     padding: 5px;
+    margin-left: 30%;
     margin-top: 10%;
     text-decoration: none; 
-    width: 100%; height: 100%;
+    width: 100%;
+    height: 100%;
     width: 800px;
     font-weight: 300;
     font-size: 60px;
-    margin-left: 30%;
     border-radius: 20px;
-    position: relative;
-}
+    position: relative}
 
-.principalmidia{border-radius: 20px; cursor: pointer; }
+.principalmidia{
+    border-radius: 20px;
+    cursor: pointer; }
 
 li{list-style-type: none;
-    border-radius: 50px;
-    padding: 2px;}
+   border-radius: 50px;
+   padding: 2px;}
 
-.socialmidia{background-color: transparent;
-    border-radius: 5px;
-    width: 800px; 
-    position: relative;
-    margin-top: 5px;
-    margin-bottom: 5px;}
+.socialmidia{
+   background-color: transparent;
+   border-radius: 5px;
+   width: 800px; 
+   position: relative;
+   margin-top: 5px;
+   margin-bottom: 5px;}
 
-a{text-decoration: none ;color: rgb(255, 255, 255);}
+a{text-decoration: none;
+  color: rgb(255, 255, 255);}
 
-a:hover{ color: rgba(red, green, blue, alpha);}
+a:hover{
+     color: rgba(red, green, blue, alpha);}
 
-.facebook{color:rgb(177, 177, 177);font-size: 50px;}
+.facebook{
+    color:rgb(177, 177, 177);
+    font-size: 50px}
 
-.facebook:hover{color: rgb(6, 79, 139);
- }
+.facebook:hover{
+    color: rgb(6, 79, 139); 
+    font-size: 55px}
 
-.steam{color: aliceblue;
-     font-size: 32px;
+.steam{
+    color: aliceblue;
+    font-size: 30px;
 }
 
-.steam:hover{color: rgb(99, 166, 228); }
+.steam:hover{
+   color: rgb(99, 166, 228);
+   font-size: 32px;}
 
-.pinterest{font-size: 35px;
-     color: rgb(128, 128, 128);  }
+.pinterest{
+   font-size: 35px;
+   color: rgb(109, 109, 109);  }
 
 .pinterest:hover{
-    color: rgb(212, 0, 0);
-     font-size: 40px;
+   color: rgb(247, 0, 0);
+   font-size: 40px;
 }
 
-.twitter{color: rgb(136, 136, 136); font-size: 40px;}
+.twitter{color: rgb(138, 138, 138);
+     font-size: 40px;}
 
-.twitter:hover{color: #1d9bf0; font-size: 40px;}
+.twitter:hover{color:rgb(29, 155, 240);
+     font-size: 45px;}
 
 .freefire{
-    color: #d2d3d3; }
+    color: #ffffff;
+    font-size: 50px;}
 
-.freefire:hover{ color: rgb(176, 214, 3);}
+.freefire:hover{
+    color: #ffba00;
+    font-size: 60px;}
 
-.clash_of_clans{color: rgb(168, 168, 168);}
+.clash_of_clans{
+    color: rgb(211, 211, 211);
+    font-size: 60px;}
 
-.clash_of_clans:hover{color: rgb(33, 110, 81);
+.clash_of_clans:hover{
+    color: rgb(33, 110, 81);
+    font-size: 65px;
     }
  
 footer{
@@ -90,9 +114,10 @@ footer{
     height: 60px;
     position: absolute;
     bottom: 0px;
+    cursor: default;
     text-align: center;
     border-radius: 10px;
-    background-color: rgb(77, 77, 77);
+    background-color: rgb(58, 58, 58);
     }
 
 footer:hover{
@@ -108,10 +133,8 @@ h2{background-color: transparent;
    font-size: 30px
   }    
 
-  H2:hover{
-    background-color: transparent;
+H2:hover{
     font-size: 35px;
     font-weight: 500; 
     margin-top: 10px;
-    margin-bottom: 10px;
-   }   
+    margin-bottom: 10px;}   
