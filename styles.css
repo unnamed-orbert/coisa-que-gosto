@@ -3,31 +3,37 @@
   padding: 0;
   margin: 0;}
 
-body{width: 100%;
-    height: 100%;
-    }
-
-header {
-    text-align: center;
+header{
     color: rgb(255, 255, 255);
     border-bottom-color:rgb(218, 218, 218);
-    background-color: #d2d3d3;
+    background-color: #242424;
     font-size: 35px;
-    border-bottom:3px;
+    border-bottom:5px;
     position:absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     cursor: default;
     width: 100%;
-    height:40px;
-    top:1px;}
+    height:80px;
+    top:0px;}
 
-header:hover{
-    color: rgb(173, 173, 173);}
+ h1{
+    background-color: transparent;
+    color: aliceblue;}   
+
+h1:hover{
+    color: rgb(192, 191, 191);}
 
 .principal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     background-color: rgb(66, 146, 0);
     padding: 5px;
-    margin-left: 30%;
-    margin-top: 10%;
+    margin: 10% 10% 10% 25%;
     text-decoration: none; 
     width: 100%;
     height: 100%;
@@ -57,7 +63,7 @@ a{text-decoration: none;
   color: rgb(255, 255, 255);}
 
 a:hover{
-     color: rgba(red, green, blue, alpha);}
+   color: rgba(red, green, blue, alpha);}
 
 .facebook{
     color:rgb(177, 177, 177);
@@ -86,10 +92,10 @@ a:hover{
 }
 
 .twitter{color: rgb(138, 138, 138);
-     font-size: 40px;}
+   font-size: 40px;}
 
 .twitter:hover{color:rgb(29, 155, 240);
-     font-size: 45px;}
+   font-size: 45px;}
 
 .freefire{
     color: #ffffff;
@@ -109,15 +115,17 @@ a:hover{
     }
  
 footer{
-    color: aliceblue;
-    width: 100%;
-    height: 60px;
-    position: absolute;
-    bottom: 0px;
-    cursor: default;
-    text-align: center;
-    border-radius: 10px;
-    background-color: rgb(58, 58, 58);
+   display: flex;
+   justify-content: center; 
+   color: aliceblue;
+   width: 100%;
+   height: 60px;
+   position: absolute;
+   bottom: 0px;
+   cursor: default;
+   text-align: center;
+   border-radius: 10px;
+   background-color: rgb(58, 58, 58);
     }
 
 footer:hover{
@@ -130,11 +138,14 @@ h2{background-color: transparent;
    margin-right: 20px;
    margin-top: 15px;
    margin-bottom: 15px;
-   font-size: 30px
-  }    
+   font-size: 30px;
+   width: 30%;
+  }
 
 H2:hover{
+    font-family: 'Lucida Sans Regular';
+    width: 35%;
     font-size: 35px;
-    font-weight: 500; 
+    font-weight: 500;
     margin-top: 10px;
-    margin-bottom: 10px;}   
+    margin-bottom: 10px;}
