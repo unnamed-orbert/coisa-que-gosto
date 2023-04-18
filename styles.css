@@ -3,11 +3,14 @@
   padding: 0;
   margin: 0;}
 
+
+
 header{
+    cursor: none;
     color: rgb(255, 255, 255);
     border-bottom-color:rgb(218, 218, 218);
     background-color: #242424;
-    font-size: 35px;
+    font-size: 30px;
     border-bottom:5px;
     position:absolute;
     display: flex;
@@ -74,9 +77,8 @@ a:hover{
     font-size: 55px}
 
 .steam{
-    color: aliceblue;
-    font-size: 30px;
-}
+    color: rgb(199, 199, 199);
+    font-size: 30px;}
 
 .steam:hover{
    color: rgb(99, 166, 228);
@@ -84,7 +86,7 @@ a:hover{
 
 .pinterest{
    font-size: 35px;
-   color: rgb(109, 109, 109);  }
+   color: rgb(158, 157, 157);  }
 
 .pinterest:hover{
    color: rgb(247, 0, 0);
@@ -106,12 +108,13 @@ a:hover{
     font-size: 60px;}
 
 .clash_of_clans{
+    cursor: defalt;
     color: rgb(211, 211, 211);
-    font-size: 60px;}
+    font-size: 50px;}
 
 .clash_of_clans:hover{
     color: rgb(33, 110, 81);
-    font-size: 65px;
+    font-size: 53px;
     }
  
 footer{
@@ -148,4 +151,4 @@ H2:hover{
     font-size: 35px;
     font-weight: 500;
     margin-top: 10px;
-    margin-bottom: 10px;}
+    margin-bottom: 10px;} 
