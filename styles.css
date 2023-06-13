@@ -1,192 +1,122 @@
-*{ text-align:center;
-   background-color:black;
-   padding:0;
-   margin:0;}
+*{padding: 0;
+  margin: 0;}
 
-body{height:100%;
-     justify-content: center;
-     align-items: center;
-     height: 100vh;
-     width: 100vw;
-     text-align: center;}
+header{
+  background-color: rgb(0, 0, 0);
+  color:white;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 5px;}
 
-header{  
-    color: rgb(255, 255, 255);
-    border-bottom-color:rgb(218, 218, 218);
-    background-color: #242424;
-    font-size: 30px;
-    border-bottom:5px;
-    position: fixed ;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    cursor: default;
-    width: 100%;
-    height:60px;
-    top:0px;}
+header>li:first-child{margin-left: 350px;}
 
- h1{
-    background-color: transparent;
-    color: aliceblue;}   
+.linksocial{
+  width: 500px;
+  margin-left: 30%;
+  display:flex; 
+  align-items:center;
+  justify-content:space-around;}
 
-h1:hover{
-    color: rgb(192, 191, 191);}
+.linksocial>li{
+  text-decoration: none;
+  list-style: none;
+  margin-bottom: 2px;
+  margin-right: 0px;
+  margin-top: 2px;}
 
-.principal{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background-color: rgba(66, 146, 0, 0.438);
-    position: fixed;
-    padding: 5px;
-    margin-left: 600px;
-    margin-right: 800px;
-    margin-top: 200px;
-    margin-bottom: 80px;
-    text-decoration: none; 
-    width: 100%;
-    width: 600px;
-    font-weight: 300;
-    font-size: 60px;
-    border-radius: 20px;
-   }
 
-.principalmidia{
-  border-radius: 5px;
+.linksocial>li>a{
   background-color: transparent;
-  cursor: pointer; }
+  font-size: 22px;
+  color: white;
+  text-decoration: none;}
 
-li{list-style-type: none;
-   border-radius: 50px;
-   padding: 2px;}
+h3{font-size: 48px;
+  text-align: center;
+  justify-content: center;
+  color: rgb(255, 255, 255);}
 
-.socialmidia{
-   background-color: rgba(255, 255, 0, 0.425);
-   border-radius: 100px;
-   width: 580px; 
-   position: relative;
-   margin-top: 5px;
-   margin-bottom: 10px;}
+.caixabonitinha {
+  margin: auto;
+  display: flex;
+  padding-top: 5px; 
+  padding-bottom: 15px;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: 100px;
+  position:relative;
+  border-radius: 30px;
+  width: 80%;
+  height: 100%;
 
-.titlelinks{
-    width: 240px;
-    height: 25px;
-    font-size: 23px;
-    padding: 5px;
-    margin-left: 150px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    font-family: Verdana;
-    text-decoration: underline;
-    color: rgb(161, 255, 255);
-    margin-bottom: 2px;
-    background-color: teal;} 
+  background: rgb(47, 57, 121);
+  background: linear-gradient(90deg,
+                    rgba(85,96,164,0.742734593837535) 11%,
+                    rgba(37,117,173,1) 28%,
+                    rgba(14,2,175,1) 46%,
+                    rgba(0,212,255,0.5242471988795518) 100%)
+  }
 
-.facebook,.clash_of_clans,
-.freefire,.twitter
-{font-size: 28px}
-
-.facebook{color:rgb(255, 255, 255);
-    }
-
-.facebook:hover{
-    color: rgb(6, 79, 139); 
-    font-size: 55px}
-
-.steam{
-    color: rgb(255, 255, 255);
-    margin-bottom: 10px;
-    font-size: 28px}
-
-.steam:hover{
-   color: rgb(99, 166, 228);
-   font-size: 32px;}
-
-.steam2{
-    margin-bottom: 10px;
-  color: rgb(255, 255, 255);
-  font-size: 20px;}
-
-.steam2:hover{
-  color: rgb(99, 166, 228);
-  font-size: 32px;}
-
-.pinterest{font-size: 21px;
-   color: rgb(255, 255, 255);  }
-
-.pinterest:hover{
-   color: rgb(247, 0, 0);
-   font-size: 40px;
-}
-
-.twitter{
-    color: rgb(255, 255, 255);
+.subcaixabonitinha{
+  margin-top: 5px;
+  position: relative;
+  height: 95%;
+  width: 100%;
+  border-radius: 15px;
+  margin-left: 30px;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  margin-right: 30px;
+  border
+  background: rgb(85,96,164);
+  background: linear-gradient(90deg,
+   rgba(85,96,164,1) 11%, 
+   rgba(37,117,173,1) 28%, 
+   rgba(14,2,175,1) 46%, 
+   rgba(0,212,255,1) 100%);
  }
 
-.twitter:hover{color:rgb(29, 155, 240);
-   font-size: 45px;}
+.subcaixabonitinha>li{
+  margin-top: 5px!important;
+  text-align: center;
+  list-style: none;
+  margin-bottom: 5px!important}
 
-.freefire{
-    color: #ffffff;
-  }
-
-.freefire:hover{
-    color: #ffba00;
-    font-size: 60px;}
-
-.clash_of_clans{
-    cursor: defalt;
-    color: rgb(255, 255, 255);
-   }
-
-.clash_of_clans:hover{
-    color: rgb(33, 110, 81);
-    font-size: 53px;
-    }
-
-a{text-decoration: none;
-  margin-bottom: 5px;
-  background-color:transparent;
+.subcaixabonitinha>li>a{
+ 
+  font-size: 20px;
   color: rgb(255, 255, 255);}
-      
-a:hover{color: rgba(red, green, blue, alpha);}
-      
-footer{
-   display: flex;
-   justify-content: center; 
-   color: aliceblue;
-   width: 100%;
-   bottom: 0px;
-   cursor: default;
+
+
+a{padding: 0px;
+  margin-top: 5px;
+  color: rgb(255, 255, 255);
+  margin-bottom: 2px;
+  background-color:transparent;
+  text-decoration: none;}
+
+.footer{
+ width: 100%;
+ background-color:transparent;
+ text-align:center;
+ display: block;
+ justify-content: center;
+ position:fixed;
+ bottom: 0px;
+ width: max-content;
+ padding-top: 5px;
+ justify-items: initial;
+ padding-bottom: 5px}
+  
+h1{display: flex;
+ margin-left: 500px;
+ font-size: 29px;
+ margin-top: 1px;
+ color: rgb(224, 223, 223);
+ background-color: black;
+ margin-bottom: 1px; 
+ position:relative;}
+
+ h2{color: rgb(221, 221, 221);
    text-align: center;
-   border-radius: 10px;
-   background-color: rgb(151, 141, 1);
-   position: fixed;
-    }
-
-footer:hover{
-    color: rgb(255, 255, 255);
-    background-color: rgb(0, 87, 36);
-     } 
-
-h2{background-color: transparent;
-   margin-left: 20px;
-   margin-right: 20px;
-   margin-top: 15px;
-   margin-bottom: 15px;
-   font-size: 30px;
-   width: 30%;  
   }
-
-H2:hover{
-    cursor: none;
-    font-family: 'Lucida Sans Regular';
-    width: 15%;
-    font-size: 45px;
-    font-weight: 500;
-    margin-top: 10px;
-    margin-bottom: 10px;} 
