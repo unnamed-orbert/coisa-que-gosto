@@ -1,4 +1,3 @@
-um pequena site que fiz para mostrar um pouco das minhas habilidades de css e html que possuo atualmente. 
+um pequeno Site pessoal que fiz para mostrar um pouco das coisinhas que gosto e as minhas habilidades de CSS e HTML que possuo atualmente.
 
-
--no presento momento não possui responsividade que pretendo resolver em breve!
+-No presente momento não possui responsividade que pretendo resolver em breve!
