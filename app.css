@@ -30,8 +30,13 @@ header>li:first-child{margin-left: 350px;}
   font-size: 22px;
   color: white;
   text-decoration: none;}
+   
+h2{color: rgb(221, 221, 221);
+      text-align: center;
+      margin-top: 20px;
+     }
 
-h3{font-size: 48px;
+h3{font-size: 36px;  
   text-align: center;
   justify-content: center;
   color: rgb(255, 255, 255);}
@@ -43,18 +48,17 @@ h3{font-size: 48px;
   padding-bottom: 15px;
   margin-left: 150px;
   margin-right: 150px;
-  margin-top: 100px;
+  margin-top: 10px;
   position:relative;
   border-radius: 30px;
   width: 80%;
   height: 100%;
-
   background: rgb(47, 57, 121);
   background: linear-gradient(90deg,
-                    rgba(85,96,164,0.742734593837535) 11%,
-                    rgba(37,117,173,1) 28%,
-                    rgba(14,2,175,1) 46%,
-                    rgba(0,212,255,0.5242471988795518) 100%)
+          rgba(85,96,164,0.742734593837535) 10%,
+          rgba(37,117,173,1) 30%,
+          rgba(14,2,175,1) 45%,
+          rgba(0,212,255,0.5242471988795518) 100%)
   }
 
 .subcaixabonitinha{
@@ -67,7 +71,6 @@ h3{font-size: 48px;
   padding-top: 10px;
   padding-bottom: 15px;
   margin-right: 30px;
-  border
   background: rgb(85,96,164);
   background: linear-gradient(90deg,
    rgba(85,96,164,1) 11%, 
@@ -82,11 +85,9 @@ h3{font-size: 48px;
   list-style: none;
   margin-bottom: 5px!important}
 
-.subcaixabonitinha>li>a{
- 
+.subcaixabonitinha>li>a{ 
   font-size: 20px;
   color: rgb(255, 255, 255);}
-
 
 a{padding: 0px;
   margin-top: 5px;
@@ -96,27 +97,36 @@ a{padding: 0px;
   text-decoration: none;}
 
 .footer{
- width: 100%;
- background-color:transparent;
+ margin: auto;
+ width:100%;
+ background-color:black;
  text-align:center;
- display: block;
  justify-content: center;
- position:fixed;
  bottom: 0px;
- width: max-content;
- padding-top: 5px;
- justify-items: initial;
- padding-bottom: 5px}
-  
-h1{display: flex;
- margin-left: 500px;
- font-size: 29px;
- margin-top: 1px;
- color: rgb(224, 223, 223);
- background-color: black;
- margin-bottom: 1px; 
- position:relative;}
+ padding: 0px;
+ justify-items: initial;}
 
- h2{color: rgb(221, 221, 221);
-   text-align: center;
+ h4{
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  color:rgb(255, 255, 255);
+  background-color: rgb(44, 44, 44); 
+  font-size: 35px;
+  position:relative;
+  width: max-content;
   }
+    
+h1{font-size: 21px;  
+   color: rgb(224, 223, 223);
+   margin-left: 10px;
+   margin-right: 10px;
+   margin-top: 1px;  
+   margin-bottom: 1px; 
+   position:relative;}
+
+h6{font-family: arial;
+   font-size: 18px; 
+   color: rgb(214, 214, 214);
+   margin: auto;
+   width: 850px;}
