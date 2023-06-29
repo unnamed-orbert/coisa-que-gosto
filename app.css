@@ -24,7 +24,6 @@ header>li:first-child{margin-left: 350px;}
   margin-right: 0px;
   margin-top: 2px;}
 
-
 .linksocial>li>a{
   background-color: transparent;
   font-size: 22px;
@@ -42,7 +41,10 @@ h3{font-size: 36px;
   color: rgb(255, 255, 255);}
 
 .caixabonitinha {
-  margin: auto;
+  margin-right: 10%;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 10%;
   display: flex;
   padding-top: 5px; 
   padding-bottom: 15px;
@@ -53,12 +55,11 @@ h3{font-size: 36px;
   border-radius: 30px;
   width: 80%;
   height: 100%;
-  background: rgb(47, 57, 121);
-  background: linear-gradient(90deg,
-          rgba(85,96,164,0.742734593837535) 10%,
-          rgba(37,117,173,1) 30%,
-          rgba(14,2,175,1) 45%,
-          rgba(0,212,255,0.5242471988795518) 100%)
+  background: rgb(11,150,194);
+background: radial-gradient(circle,
+ rgba(11,150,194,1) 30%,
+ rgba(5, 59, 160, 0.452) 62%,
+ rgba(34,61,148,0.2665441176470589) 100%);
   }
 
 .subcaixabonitinha{
@@ -71,12 +72,11 @@ h3{font-size: 36px;
   padding-top: 10px;
   padding-bottom: 15px;
   margin-right: 30px;
-  background: rgb(85,96,164);
-  background: linear-gradient(90deg,
-   rgba(85,96,164,1) 11%, 
-   rgba(37,117,173,1) 28%, 
-   rgba(14,2,175,1) 46%, 
-   rgba(0,212,255,1) 100%);
+  background: rgb(11,150,194);
+background: radial-gradient(circle,
+ rgba(11,150,194,1) 30%,
+ rgba(9,79,206,0.5382528011204482) 62%,
+ rgba(34,61,148,0.2665441176470589) 100%);
  }
 
 .subcaixabonitinha>li{
@@ -112,7 +112,7 @@ a{padding: 0px;
   margin-right: 10px;
   color:rgb(255, 255, 255);
   background-color: rgb(44, 44, 44); 
-  font-size: 35px;
+  font-size: 28px;
   position:relative;
   width: max-content;
   }
@@ -126,7 +126,29 @@ h1{font-size: 21px;
    position:relative;}
 
 h6{font-family: arial;
-   font-size: 18px; 
-   color: rgb(214, 214, 214);
-   margin: auto;
-   width: 850px;}
+  font-size: 18px; 
+  color: rgb(255, 255, 255);
+  margin: auto;
+  width: 800px;
+  }
+
+.add-ons{
+   background-color: rgba(47, 73, 64, 0.438);
+   border-radius: 15px;
+   text-emphasis: none;
+   text-align: center;}
+ 
+ img{width: 35px; 
+    margin-right: 5px;
+    height: 35px;}
+
+.add-ons>h3{font-size:30px}
+
+.add-ons>h6{font-size: 18px;}
+
+.add-ons>a{
+  font-size: 27px !important;}
+
+i{font-weight:700;}
+
+#extensiontitle{font-size: 35px;}
