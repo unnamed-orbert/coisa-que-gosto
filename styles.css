@@ -1,0 +1,192 @@
+*{ text-align:center;
+   background-color:black;
+   padding:0;
+   margin:0;}
+
+body{height:100%;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+     width: 100vw;
+     text-align: center;}
+
+header{  
+    color: rgb(255, 255, 255);
+    border-bottom-color:rgb(218, 218, 218);
+    background-color: #242424;
+    font-size: 30px;
+    border-bottom:5px;
+    position: fixed ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    cursor: default;
+    width: 100%;
+    height:60px;
+    top:0px;}
+
+ h1{
+    background-color: transparent;
+    color: aliceblue;}   
+
+h1:hover{
+    color: rgb(192, 191, 191);}
+
+.principal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(66, 146, 0, 0.438);
+    position: fixed;
+    padding: 5px;
+    margin-left: 600px;
+    margin-right: 800px;
+    margin-top: 200px;
+    margin-bottom: 80px;
+    text-decoration: none; 
+    width: 100%;
+    width: 600px;
+    font-weight: 300;
+    font-size: 60px;
+    border-radius: 20px;
+   }
+
+.principalmidia{
+  border-radius: 5px;
+  background-color: transparent;
+  cursor: pointer; }
+
+li{list-style-type: none;
+   border-radius: 50px;
+   padding: 2px;}
+
+.socialmidia{
+   background-color: rgba(255, 255, 0, 0.425);
+   border-radius: 100px;
+   width: 580px; 
+   position: relative;
+   margin-top: 5px;
+   margin-bottom: 10px;}
+
+.titlelinks{
+    width: 240px;
+    height: 25px;
+    font-size: 23px;
+    padding: 5px;
+    margin-left: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: Verdana;
+    text-decoration: underline;
+    color: rgb(161, 255, 255);
+    margin-bottom: 2px;
+    background-color: teal;} 
+
+.facebook,.clash_of_clans,
+.freefire,.twitter
+{font-size: 28px}
+
+.facebook{color:rgb(255, 255, 255);
+    }
+
+.facebook:hover{
+    color: rgb(6, 79, 139); 
+    font-size: 55px}
+
+.steam{
+    color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+    font-size: 28px}
+
+.steam:hover{
+   color: rgb(99, 166, 228);
+   font-size: 32px;}
+
+.steam2{
+    margin-bottom: 10px;
+  color: rgb(255, 255, 255);
+  font-size: 20px;}
+
+.steam2:hover{
+  color: rgb(99, 166, 228);
+  font-size: 32px;}
+
+.pinterest{font-size: 21px;
+   color: rgb(255, 255, 255);  }
+
+.pinterest:hover{
+   color: rgb(247, 0, 0);
+   font-size: 40px;
+}
+
+.twitter{
+    color: rgb(255, 255, 255);
+ }
+
+.twitter:hover{color:rgb(29, 155, 240);
+   font-size: 45px;}
+
+.freefire{
+    color: #ffffff;
+  }
+
+.freefire:hover{
+    color: #ffba00;
+    font-size: 60px;}
+
+.clash_of_clans{
+    cursor: defalt;
+    color: rgb(255, 255, 255);
+   }
+
+.clash_of_clans:hover{
+    color: rgb(33, 110, 81);
+    font-size: 53px;
+    }
+
+a{text-decoration: none;
+  margin-bottom: 5px;
+  background-color:transparent;
+  color: rgb(255, 255, 255);}
+      
+a:hover{color: rgba(red, green, blue, alpha);}
+      
+footer{
+   display: flex;
+   justify-content: center; 
+   color: aliceblue;
+   width: 100%;
+   bottom: 0px;
+   cursor: default;
+   text-align: center;
+   border-radius: 10px;
+   background-color: rgb(151, 141, 1);
+   position: fixed;
+    }
+
+footer:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 87, 36);
+     } 
+
+h2{background-color: transparent;
+   margin-left: 20px;
+   margin-right: 20px;
+   margin-top: 15px;
+   margin-bottom: 15px;
+   font-size: 30px;
+   width: 30%;  
+  }
+
+H2:hover{
+    cursor: none;
+    font-family: 'Lucida Sans Regular';
+    width: 15%;
+    font-size: 45px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 10px;} 
