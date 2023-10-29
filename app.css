@@ -79,6 +79,8 @@ background: radial-gradient(circle,
  rgba(34,61,148,0.2665441176470589) 100%);
  }
 
+ .subcaixabonitinha:hover{background: rgb(19, 102, 51);}
+
 .subcaixabonitinha>li{
   margin-top: 5px!important;
   text-align: center;
@@ -88,6 +90,17 @@ background: radial-gradient(circle,
 .subcaixabonitinha>li>a{ 
   font-size: 20px;
   color: rgb(255, 255, 255);}
+
+#children_6{
+    background-color: rgba(73, 111, 146, 0.116);
+    color: rgba(192, 0, 166, 0.658);}
+    
+#children_6:hover{
+    background-color: rgba(88, 32, 79, 0.623);
+    text-decoration: underline;
+    color: rgb(255, 255, 255);}
+
+
 
 a{padding: 0px;
   margin-top: 5px;
@@ -152,3 +165,5 @@ h6{font-family: arial;
 i{font-weight:700;}
 
 #extensiontitle{font-size: 35px;}
+
+
