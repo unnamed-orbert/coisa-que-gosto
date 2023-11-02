@@ -10,14 +10,11 @@ header{
 
 header>li:first-child{margin-left: 20%;}
 
-
 #pinterest:hover, #pinterest:hover{width: 100%;}
 
 #facebook:hover{background-color: aqua;}
 #twitter:hover{background-color: blanchedalmond;}
 #pinterest:hover{background-color: red;}
-
-
 
 .linksocial{
   width: 500px;
@@ -39,8 +36,7 @@ header>li:first-child{margin-left: 20%;}
   text-decoration: none;}
    
 h2{text-align: center;
- 
-   margin-top: 20px;
+  margin-top: 20px;
    color: white;
      }
 
@@ -76,8 +72,7 @@ h3:hover{color: yellow;
 background: radial-gradient(circle,
  rgba(11,150,194,1) 30%,
  rgba(5, 59, 160, 0.452) 62%,
- rgba(34,61,148,0.2665441176470589) 100%);
-  }
+ rgba(34,61,148,0.2665441176470589) 100%);}
 
 .subcaixabonitinha{
   margin-top: 5px;
@@ -93,15 +88,13 @@ background: radial-gradient(circle,
   background: radial-gradient(circle,
         rgba(11,150,194,1) 30%,
         rgba(9,79,206,0.5382528011204482) 60%,
-        rgba(34,61,148,0.2665441176470589) 100%);
- }
+        rgba(34,61,148,0.2665441176470589) 100%);}
 
  .subcaixabonitinha:hover{
   background: radial-gradient(circle,
    rgb(24 40 65) 10%,
    rgb(15 37 15 / 54%) 50%,
-   rgba(34,61,148,0.2665441176470589) 75%);
- }
+   rgba(34,61,148,0.2665441176470589) 75%);}
 
 .subcaixabonitinha>li{
   margin-top: 5px!important;
@@ -110,16 +103,14 @@ background: radial-gradient(circle,
   margin-bottom: 5px!important}
 
 .subcaixabonitinha>li>a{ 
-  font-size: 20px;
-  }
+  font-size: 20px;}
 
 #children_6{
     background-color: rgba(73, 111, 146, 0.116);
     color: rgba(192, 0, 166, 0.658);}
     
 #children_6:hover{
-    text-decoration: underline;
-   }
+    text-decoration: underline;}
 
 a{padding: 0px;
   margin-top: 5px;
@@ -153,11 +144,9 @@ li:hover{text-decoration: underline;
   background-color: rgb(44, 44, 44); 
   font-size: 28px;
   position:relative;
-  width: max-content;
-  }
+  width: max-content;}
     
 h1{font-size: 21px;  
-  
    margin-left: 10px;
    margin-right: 10px;
    margin-top: 1px;  
@@ -191,5 +180,3 @@ h6{font-family: arial;
 i{font-weight:700;}
 
 #extensiontitle{font-size: 35px;}
-
-
