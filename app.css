@@ -66,7 +66,6 @@ h3:hover{color: yellow;
   margin-left: 150px;
   margin-right: 150px;
   margin-top: 10px;
-  position:relative;
   border-radius: 30px;
   width: 80%;
   height: 100%;
@@ -129,11 +128,13 @@ li:hover{text-decoration: underline;
  
 .footer{
  margin: auto;
+ position: fixed;
  width:100%;
  background-color:black;
  text-align:center;
  justify-content: center;
  bottom: 0px;
+ color: white;
  padding: 0px;
  justify-items: initial;}
 
@@ -143,9 +144,9 @@ li:hover{text-decoration: underline;
   margin-left: 25%;
   margin-right: 35%;
   color: white;
+  position: fixed;
   background-color: rgb(44, 44, 44); 
   font-size: 28px;
-  position:relative;
   width: max-content;}
     
 h1{font-size: 21px;  
@@ -157,7 +158,6 @@ h1{font-size: 21px;
 
 h6{font-family: arial;
   font-size: 18px; 
- 
   margin: auto;
   width: 800px;
   }
