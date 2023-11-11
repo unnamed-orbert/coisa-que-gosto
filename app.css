@@ -112,6 +112,11 @@ background: radial-gradient(circle,
     
 #children_6:hover{
     text-decoration: underline;}
+ 
+a:hover{text-decoration: underline;
+   color: rgb(3, 3, 3); }
+ 
+li:hover{background-color: rgb(255, 255, 255);}
 
 a{padding: 0px;
   margin-top: 5px;
@@ -119,24 +124,6 @@ a{padding: 0px;
   background-color:transparent;
   text-decoration: none;
   color:white}
-
-a:hover{color: black;}
-  
-li:hover{text-decoration: underline;
-      color: black!important;
-      background-color: rgb(255, 255, 255);}
- 
-.footer{
- margin: auto;
- position: fixed;
- width:100%;
- background-color:black;
- text-align:center;
- justify-content: center;
- bottom: 0px;
- color: white;
- padding: 0px;
- justify-items: initial;}
 
  h4{
   text-align: center;
@@ -149,12 +136,6 @@ li:hover{text-decoration: underline;
   font-size: 28px;
   width: max-content;}
     
-h1{font-size: 21px;  
-   margin-left: 10px;
-   margin-right: 10px;
-   margin-top: 1px;  
-   margin-bottom: 1px; 
-   position:relative;}
 
 h6{font-family: arial;
   font-size: 18px; 
@@ -182,3 +163,32 @@ h6{font-family: arial;
 i{font-weight:700;}
 
 #extensiontitle{font-size: 35px;}
+
+
+
+.footer{
+  margin: auto;
+  position: fixed;
+  width:100%;
+  background-color:black;
+  text-align:center;
+  justify-content: center;
+  bottom: 0px;
+  color: white;
+  padding: 0px;
+  justify-items: initial;}
+ 
+h1{font-size: 21px;  
+   margin-left: 10px;
+   margin-right: 10px;
+   margin-top: 1px;  
+   margin-bottom: 1px; 
+   }
+  
+
+#secund_text:hover{position:absolute;}
+
+
+
+
+#primary_text:hover{display: none; position:absolute;}
