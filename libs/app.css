@@ -164,8 +164,6 @@ i{font-weight:700;}
 
 #extensiontitle{font-size: 35px;}
 
-
-
 .footer{
   margin: auto;
   position: fixed;
@@ -185,10 +183,13 @@ h1{font-size: 21px;
    margin-bottom: 1px; 
    }
   
-
 #secund_text:hover{position:absolute;}
 
-
-
-
 #primary_text:hover{display: none; position:absolute;}
+
+.dearrow:hover{background-color: rgba(0, 0, 0, 0.274);
+  color: white!important;}
+
+.dearrow>img{position: absolute;
+   display: inline!important;
+   display: flex!important; }
