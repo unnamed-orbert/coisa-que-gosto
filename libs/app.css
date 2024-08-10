@@ -18,20 +18,20 @@
   border-radius: 15px;
   margin-left: 30px;
   padding-top: 10px;
+  transition: background-color 1.3s;
   padding-bottom: 15px;
   margin-right: 30px;
-  background: rgb(11, 150, 194);
+  background-color: rgb(11, 150, 194);
 }
 
 @media (max-width: 35000px) {
-
   h1,
   h2,
   h3,
   h4,
   h5,
   h6 {
-    cursor: default
+    cursor: default;
   }
 
   header {
@@ -48,22 +48,32 @@
   margin-left: 20%;
 } */
 
-  #pinterest:hover,
   #pinterest:hover {
     color: white;
     width: 100%;
   }
 
+  #facebook:hover,
+  #twitter:hover,
+  #instagram:hover,
+  #pinterest:hover {
+    transition: margin-right, margin-left, margin-bottom, margin-top 1.5s;
+    margin-right: 25px;
+    margin-bottom: 10px;
+    margin-left: 25px;
+    margin-top: 5px;
+  }
+
   #facebook:hover {
-    background-color: rgba(0, 71, 165, 0.63);
+    border-color: rgba(0, 71, 165, 0.63);
   }
 
   #twitter:hover {
-    background-color: rgba(38, 106, 110, 0.562);
+    border-color: rgba(38, 106, 110, 0.562);
   }
 
   #pinterest:hover {
-    background-color: rgba(255, 0, 0, 0.418);
+    border-color: rgba(255, 0, 0, 0.418);
   }
 
   .linksocial {
@@ -73,7 +83,7 @@
     justify-content: space-around;
   }
 
-  .linksocial>li {
+  .linksocial > li {
     text-decoration: none;
     list-style: none;
     margin-bottom: 2px;
@@ -81,7 +91,7 @@
     margin-top: 2px;
   }
 
-  .linksocial>li>a {
+  .linksocial > li > a {
     background-color: transparent;
     font-size: 22px;
     text-decoration: none;
@@ -123,37 +133,44 @@
     text-align: center;
     justify-content: center;
     background: rgb(11, 150, 194);
-    background: radial-gradient(circle,
-        rgba(11, 150, 194, 1) 30%,
-        rgba(5, 59, 160, 0.452) 62%,
-        rgba(34, 61, 148, 0.2665441176470589) 100%);
+    background: radial-gradient(
+      circle,
+      rgba(11, 150, 194, 1) 30%,
+      rgba(5, 59, 160, 0.452) 62%,
+      rgba(34, 61, 148, 0.2665441176470589) 100%
+    );
   }
 
   .subcaixabonitinha {
     margin-top: 5px;
     height: 90%;
     width: 100%;
-    background: radial-gradient(circle,
-        rgba(11, 150, 194, 1) 30%,
-        rgba(9, 79, 206, 0.5382528011204482) 60%,
-        rgba(34, 61, 148, 0.2665441176470589) 100%);
+    background: radial-gradient(
+      circle,
+      rgba(11, 150, 194, 1) 30%,
+      rgba(9, 79, 206, 0.5382528011204482) 60%,
+      rgba(34, 61, 148, 0.2665441176470589) 100%
+    );
   }
 
   .subcaixabonitinha:hover {
-    background: radial-gradient(circle,
-        rgb(24 40 65) 10%,
-        rgb(15 37 15 / 54%) 50%,
-        rgba(34, 61, 148, 0.2665441176470589) 75%);
+    transition: background-color 1s;
+    background-color: radial-gradient(
+      circle,
+      rgb(24 40 65) 10%,
+      rgb(15 37 15 / 54%) 50%,
+      rgba(34, 61, 148, 0.2665441176470589) 75%
+    );
   }
 
-  .subcaixabonitinha>li {
+  .subcaixabonitinha > li {
     margin-top: 5px !important;
     text-align: center;
     list-style: none;
-    margin-bottom: 5px !important
+    margin-bottom: 5px !important;
   }
 
-  .subcaixabonitinha>li>a {
+  .subcaixabonitinha > li > a {
     font-size: 20px;
   }
 
@@ -184,12 +201,11 @@
     margin-bottom: 2px;
     background-color: transparent;
     text-decoration: none;
-    color: white
+    color: white;
   }
 
   h4 {
     display: none;
-
   }
 
   h6 {
@@ -213,15 +229,15 @@
     height: 35px;
   }
 
-  .add-ons>h3 {
-    font-size: 30px
+  .add-ons > h3 {
+    font-size: 30px;
   }
 
-  .add-ons>h6 {
+  .add-ons > h6 {
     font-size: 18px;
   }
 
-  .add-ons>a {
+  .add-ons > a {
     font-size: 27px !important;
   }
 
@@ -314,7 +330,7 @@
     color: white !important;
   }
 
-  .dearrow>img {
+  .dearrow > img {
     position: absolute;
     display: inline !important;
     display: flex !important;
@@ -324,11 +340,9 @@
     0% {opacity: 1;}
     100% {opacity: 0;}
   } */
-
 }
 
 @media (max-width: 960px) {
-
   .Sponsorblock_SponsorContainer:hover,
   .caixabonitinha:hover,
   .subcaixabonitinha:hover,
@@ -417,6 +431,5 @@
 
   a {
     font-family: "Roboto", "Arial", Arial, "Helvetica";
-
   }
 }

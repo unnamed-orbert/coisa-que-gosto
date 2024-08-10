@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema">
+     <xs:element name="timedtext">
+          <xs:complexType>
+               <xs:sequence>
+                    <xs:element name="head">
+                         <xs:complexType>
+                              <xs:sequence>
+                                   <xs:element maxOccurs="unbounded" name="wp">
+                                        <xs:complexType>
+                                             <xs:attribute name="id" type="xs:unsignedByte" use="optional" />
+                                             <xs:attribute name="ap" type="xs:unsignedByte" use="optional" />
+                                             <xs:attribute name="ah" type="xs:unsignedByte" use="optional" />
+                                             <xs:attribute name="av" type="xs:unsignedByte" use="optional" />
+                                             <xs:attribute name="cc" type="xs:unsignedShort" use="optional" />
+                                             <xs:attribute name="rc" type="xs:unsignedShort" use="optional" />
+                                        </xs:complexType>
+                                   </xs:element>
+                                   <xs:element maxOccurs="unbounded" name="ws">
+                                        <xs:complexType>
+                                             <xs:attribute name="id" type="xs:unsignedByte" use="optional" />
+                                             <xs:attribute name="ju" type="xs:unsignedByte" use="optional" />
+                                             <xs:attribute name="pd" type="xs:unsignedByte" use="optional" />
+                                             <xs:attribute name="sd" type="xs:unsignedByte" use="optional" />
+                                             <xs:attribute name="wfc" type="xs:string" use="optional" />
+                                             <xs:attribute name="wfo" type="xs:unsignedByte" use="optional" />
+                                        </xs:complexType>
+                                   </xs:element>
+                                   <xs:element maxOccurs="unbounded" name="pen">
+                                        <xs:complexType>
+                                             <xs:attribute name="id" type="xs:unsignedShort" use="optional" />
+                                             <xs:attribute name="sz" type="xs:unsignedShort" use="optional" />
+                                             <xs:attribute name="fc" type="xs:string" use="optional" />
+                                             <xs:attribute name="fo" type="xs:unsignedByte" use="optional" />
+                                             <xs:attribute name="bo" type="xs:unsignedByte" use="optional" />
+                                             <xs:attribute name="bc" type="xs:string" use="optional" />
+                                             <xs:attribute name="b" type="xs:unsignedByte" use="optional" />
+                                             <xs:attribute name="u" type="xs:unsignedByte" use="optional" />
+                                             <xs:attribute name="i" type="xs:unsignedByte" use="optional" />
+                                             <xs:attribute name="et" type="xs:unsignedByte" use="optional" />
+                                             <xs:attribute name="ec" type="xs:string" use="optional" />
+                                        </xs:complexType>
+                                   </xs:element>
+                              </xs:sequence>
+                         </xs:complexType>
+                    </xs:element>
+                    <xs:element name="body">
+                         <xs:complexType>
+                              <xs:sequence>
+                                   <xs:element maxOccurs="unbounded" name="p">
+                                        <xs:complexType mixed="true">
+                                             <xs:sequence>
+                                                  <xs:element maxOccurs="unbounded" name="s">
+                                                       <xs:complexType>
+                                                            <xs:simpleContent>
+                                                                 <xs:extension base="xs:string">
+                                                                      <xs:attribute name="p" type="xs:unsignedInt" use="required" />
+                                                                 </xs:extension>
+                                                            </xs:simpleContent>
+                                                       </xs:complexType>
+                                                  </xs:element>
+                                             </xs:sequence>
+                                             <xs:attribute name="t" type="xs:unsignedInt" use="required" />
+                                             <xs:attribute name="d" type="xs:unsignedInt" use="required" />
+                                             <xs:attribute name="wp" type="xs:unsignedByte" use="optional" />
+                                             <xs:attribute name="ws" type="xs:unsignedByte" use="optional" />
+                                        </xs:complexType>
+                                   </xs:element>
+                              </xs:sequence>
+                         </xs:complexType>
+                    </xs:element>
+               </xs:sequence>
+               <xs:attribute name="format" type="xs:unsignedByte" use="required" />
+          </xs:complexType>
+     </xs:element>
+</xs:schema>
