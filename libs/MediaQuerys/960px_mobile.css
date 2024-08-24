@@ -1,0 +1,102 @@
+@media (max-width: 960px) {
+  .Sponsorblock_SponsorContainer:hover,
+  .caixabonitinha:hover,
+  .subcaixabonitinha:hover,
+  .dearrow:hover,
+  .add-ons:hover,
+  h1:hover,
+  h2:hover,
+  h3:hover,
+  h5:hover,
+  h6:hover,
+  li:hover {
+    margin: unset;
+    font-size: unset;
+    letter-spacing: unset;
+    background-color: unset;
+  }
+
+  #children_6,
+  #children_6:hover {
+    color: unset;
+    background-color: unset;
+  }
+
+  h3 {
+    font-size: 1rem;
+  }
+
+  .caixabonitinha,
+  .dearrow,
+  h1,
+  h2,
+  h5,
+  h6 .subcaixabonitinha,
+  li {
+    font-size: unset;
+    letter-spacing: unset;
+    background-color: unset;
+    letter-spacing: unset;
+    background-color: unset;
+  }
+
+  .caixabonitinha,
+  .caixabonitinha:hover {
+    display: flex;
+    overflow: hidden;
+    border-radius: 10%;
+    text-align: center;
+    /* margin-top: 15px;
+    margin-left: 50px;
+    margin-right: 50px; */
+    justify-content: center;
+    background-color: unset;
+    color: white;
+  }
+
+  li {
+    font-size: 20px;
+  }
+
+  .caixabonitinha,
+  .subcaixabonitinha,
+  .subcaixabonitinha:hover {
+    width: 85%;
+    /*
+    margin-left: 50px;
+    margin-right: 50px; */
+  }
+
+  a:hover {
+    text-align: unset;
+  }
+
+  h4 {
+    font-size: 15px !important;
+    display: unset;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: rgb(255, 255, 255);
+    z-index: 90000;
+    position: relative;
+    background-color: rgb(44, 44, 44);
+    font-size: 2em;
+    width: max-content;
+  }
+
+  a {
+    font-family: "Roboto", "Arial", Arial, "Helvetica";
+  }
+}
+
+@media (min-width: 1660px) {
+  * {
+    font-size: 1rem;
+  }
+  body {
+    background-color: black;
+    color: white;
+  }
+}
